@@ -43,3 +43,26 @@ use
 then commit the changes and finally push the changes
 
 >git push -u origin master
+
+## Revert changes
+
+use
+
+>git checkout -- file_name
+
+to revert change to the last version.
+
+**Note**: if the change has not beed added to stage from working directory, it
+will be revert to the last version in working directory; otherwise, it will be
+revert to the last version in stage.
+
+## Branch
+
+create and switch to a new branch
+
+> git checkout -b branch_name
+
+it equals to
+
+> git branch branch_name
+> git checkout branch_name
