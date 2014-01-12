@@ -66,3 +66,11 @@ it equals to
 
 > git branch branch_name
 > git checkout branch_name
+
+merge a branch to master
+
+> git merge branch_name
+
+delete a branch
+
+> git branch -d branch_name
